@@ -6,11 +6,12 @@ def my_each(collection)
   yield collection[i]
   i += 1 
   end 
-end
-
-
-my_each(collection) do |i|
-  i << collection
   collection
 end
+
+
+# my_each(collection) do |i|
+#   i << collection
+#   collection
+# end
 
